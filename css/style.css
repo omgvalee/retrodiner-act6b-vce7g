@@ -56,6 +56,13 @@ img {
 	float :right;
 	overflow :hidden;
 }
+#header div h1 {
+	margin :0;
+	padding :0;
+	float :left;
+	font-size :0;
+	line-height :0;
+}
 #header div img.logo {
 	border :0;
 	float :left;
@@ -106,7 +113,7 @@ img {
 #body .featured img {
 	border: 0;
 }
-#body .featured h1 {
+#body .featured h2 {
 	margin :0.83em 0;
 	font-family :'Lobster1.4Regular', cursive;
 	font-size :36px;
@@ -169,7 +176,7 @@ img {
 	background-position :center center;
 	background-repeat :repeat-y;
 }
-#body #content div div h1 {
+#body #content div div h2 {
 	font-family :'Lobster1.4Regular', cursive;
 	font-size :36px;
 	color :#1b6568;
@@ -192,13 +199,13 @@ img {
 	color :#822619;
 	font-weight :normal;
 }
-#body #content div div ul li h2 {
+#body #content div div ul li h3 {
 	font-family :'Lobster1.4Regular', cursive;
 	font-size :18px;
 	color :#822619;
 	font-weight :normal;
 }
-#body #content div div ul li h2 a {
+#body #content div div ul li h3 a {
 	font-family :'Lobster1.4Regular', cursive;
 	font-size :24px;
 	color :#822619;
@@ -227,7 +234,7 @@ img {
 	color :#822619;
 	font-weight :normal;
 }
-#body #content div div ul li h2 a:hover {
+#body #content div div ul li h3 a:hover {
 	color :#80210b;
 }
 #body .content div div form label {
@@ -295,7 +302,7 @@ img {
 	background-position :center center;
 	background-repeat :repeat-y;
 }
-#body .content div div h2.subtitle {
+#body .content div div h3.subtitle {
 	font-size :24px;
 	color :#822619;
 	font-family :'Lobster1.4Regular', cursive;
@@ -315,7 +322,7 @@ img {
 #body .content div div p a:hover {
 	color :#80210b;
 }
-#body .content div div h1 {
+#body .content div div h2 {
 	font-family :'Lobster1.4Regular', cursive;
 	font-size :36px;
 	color :#1b6568;
@@ -340,7 +347,7 @@ img {
 #body .content div div ul li.last {
 	border :none;
 }
-#body .content div div ul li h2 a {
+#body .content div div ul li h3 a {
 	font-family :'Lobster1.4Regular', cursive;
 	font-size :24px;
 	color :#822619;
@@ -542,7 +549,7 @@ img {
 	margin :0 20px 0 0;
 	float :left;
 }
-#body #section div.section div div h2 {
+#body #section div.section div div h3 {
 	font-family :'LimelightRegular', cursive;
 	color :#1b6568;
 	font-size :28px;
@@ -552,7 +559,7 @@ img {
 	text-transform :uppercase;
 	width :auto;
 }
-#body #section div.section div div h2 a {
+#body #section div.section div div h3 a {
 	font-family :'LimelightRegular', cursive;
 	color :#822619;
 	font-size :28px;
@@ -560,11 +567,11 @@ img {
 	text-decoration :none;
 	line-height :30px;
 }
-#body #section div.section div div h2 a:hover {
+#body #section div.section div div h3 a:hover {
 	color :#1b6568;
 	text-decoration :none;
 }
-#body #section div.section div div h3 {
+#body #section div.section div div h4 {
 	font-family :'NunitoRegular', Arial, sans-serif;
 	color :#4c1407;
 	font-size :14px;
@@ -573,7 +580,7 @@ img {
 	padding :0;
 	width :auto;
 }
-#body #section div.section div div h3 a {
+#body #section div.section div div h4 a {
 	color :#80210b;
 	text-decoration :underline;
 }
@@ -663,7 +670,7 @@ img {
 	margin :10px 0;
 	padding :0;
 }
-#footer div ul li h3 {
+#footer div ul li p {
 	color :#ebe9d7;
 	font-family :'Lobster1.4Regular', cursive;
 	font-size :24px;
